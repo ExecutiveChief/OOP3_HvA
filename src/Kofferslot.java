@@ -1,7 +1,7 @@
 public class Kofferslot {
     /*
         Een kofferslot combinatie bestaat uit 2 letters (eerste twee posities) en de 1 cijfer (laatste positie)
-        Als een letter of getal wordt opgehoogd als het de hoogste waarde heeft (e.g. cijfer = 9) wordt dit terug gezet
+        Als een letter of getal wordt opgehoogd als het de hoogste waarde heeft (i.e. cijfer = 9) wordt dit terug gezet
         naar de laagste positie en wordt de positie daarvoor opgehoogd.
      */
     private Letter[] letterlijst = new Letter[2];
